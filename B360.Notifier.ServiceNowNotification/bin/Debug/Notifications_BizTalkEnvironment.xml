@@ -1,0 +1,60 @@
+﻿<?xml version="1.0"?>
+<MonitorGroupData
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <name>BizTalkEnvironment</name>
+  <monitorStatus>Critical</monitorStatus>
+  <isAutoCorrected>false</isAutoCorrected>
+  <monitorGroups>
+    <MonitorGroup>
+      <name>BizTalk Environment</name>
+      <monitorStatus>Critical</monitorStatus>
+      <isAutoCorrected>false</isAutoCorrected>
+      <monitors>
+        <Monitor>
+          <name>HostInstances</name>
+          <serializedConfig />
+          <monitorStatus>Healthy</monitorStatus>
+          <isAutoCorrected>false</isAutoCorrected>
+          <issues />
+        </Monitor>
+        <Monitor>
+          <name>MessageBoxViewer</name>
+          <serializedConfig />
+          <monitorStatus>Warning</monitorStatus>
+          <isAutoCorrected>false</isAutoCorrected>
+          <issues>
+            <Issue>
+              <description>Looks like MBV is not configured in the environment.</description>
+              <type>Warning</type>
+            </Issue>
+          </issues>
+        </Monitor>
+        <Monitor>
+          <name>WebEndpoints</name>
+          <serializedConfig />
+          <monitorStatus>Critical</monitorStatus>
+          <isAutoCorrected>false</isAutoCorrected>
+          <issues>
+            <Issue>
+              <description>Accessing the Web Endpoint BizTalk360 returned error. So return code cannot be determined  </description>
+              <type>Error</type>
+            </Issue>
+          </issues>
+        </Monitor>
+        <Monitor>
+          <name>Database Query</name>
+          <serializedConfig />
+          <monitorStatus>Critical</monitorStatus>
+          <isAutoCorrected>false</isAutoCorrected>
+          <issues>
+            <Issue>
+              <description>Error executing the query BT360DEV08. So return code cannot be determined. Error:Invalid object name 'b360_admin_BizTalkEnvironment'.</description>
+              <type>Error</type>
+            </Issue>
+          </issues>
+        </Monitor>
+      </monitors>
+    </MonitorGroup>
+  </monitorGroups>
+</MonitorGroupData>
