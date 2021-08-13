@@ -1,0 +1,83 @@
+[
+	{
+		"name": "shortDescription",
+		"displayName": "Short Description",
+		"isMandatory": "true",
+		"disabled": "false",
+		"tooltip": "Short Description",
+		"defaultValue": "false",
+		"type": "input",
+		"maxLength": "1000",
+		"items": []
+	},
+	{
+		"name": "impact",
+		"displayName": "Impact",
+		"isMandatory": "true",
+		"disabled": "false",
+		"defaultValue": "false",
+		"type": "input",
+		"maxLength": "1000",
+		"items": []
+	},
+	{
+		"name": "urgency",
+		"displayName": "Urgency",
+		"isMandatory": "true",
+		"disabled": "false",
+		"defaultValue": "false",
+		"type": "input",
+		"maxLength": "1000",
+		"items": []
+	},
+	{
+		"name": "assignmentGroup",
+		"displayName": "Assignment Group",
+		"isMandatory": "true",
+		"disabled": "false",
+		"defaultValue": "false",
+		"type": "input",
+		"maxLength": "1000",
+		"items": []
+	},
+	{
+		"name": "category",
+		"displayName": "Category",
+		"isMandatory": "false",
+		"disabled": "false",
+		"defaultValue": "false",
+		"type": "input",
+		"maxLength": "1000",
+		"items": []
+	},
+	{
+		"name": "subcategory",
+		"displayName": "Subcategory",
+		"isMandatory": "false",
+		"disabled": "false",
+		"defaultValue": "false",
+		"type": "input",
+		"maxLength": "1000",
+		"items": []
+	},
+	{
+		"name": "configurationItem",
+		"displayName": "Configuration Item",
+		"isMandatory": "false",
+		"disabled": "false",
+		"defaultValue": "false",
+		"type": "input",
+		"maxLength": "1000",
+		"items": []
+	},
+	{
+		"name": "additionalComments",
+		"displayName": "Additional Comments",
+		"isMandatory": "false",
+		"disabled": "false",
+		"defaultValue": "false",
+		"type": "input",
+		"maxLength": "1000",
+		"items": []
+	}
+]
