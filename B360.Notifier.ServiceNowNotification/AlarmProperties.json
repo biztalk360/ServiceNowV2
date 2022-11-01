@@ -1,0 +1,163 @@
+[
+  {
+    "name": "incident",
+    "displayName": "Incident",
+    "isMandatory": "false",
+    "isSensitiveField": "false",
+    "disabled": "false",
+    "defaultValue": "true",
+    "type": "checkbox",
+    "items": []
+  },
+  {
+    "name": "event",
+    "displayName": "Event",
+    "isMandatory": "false",
+    "isSensitiveField": "false",
+    "disabled": "false",
+    "defaultValue": "false",
+    "type": "checkbox",
+    "items": []
+  },
+  {
+    "name": "shortDescription",
+    "displayName": "Short Description",
+    "isMandatory": "true",
+    "disabled": "false",
+    "tooltip": "Short Description",
+    "defaultValue": "false",
+    "type": "input",
+    "maxLength": "1000",
+    "items": []
+  },
+  {
+    "name": "impact",
+    "displayName": "Impact",
+    "isMandatory": "true",
+    "disabled": "false",
+    "defaultValue": "false",
+    "type": "input",
+    "maxLength": "1000",
+    "items": []
+  },
+  {
+    "name": "urgency",
+    "displayName": "Urgency",
+    "isMandatory": "true",
+    "disabled": "false",
+    "defaultValue": "false",
+    "type": "input",
+    "maxLength": "1000",
+    "items": []
+  },
+  {
+    "name": "assignmentGroup",
+    "displayName": "Assignment Group",
+    "isMandatory": "true",
+    "disabled": "false",
+    "defaultValue": "false",
+    "type": "input",
+    "maxLength": "1000",
+    "items": []
+  },
+  {
+    "name": "category",
+    "displayName": "Category",
+    "isMandatory": "false",
+    "disabled": "false",
+    "defaultValue": "false",
+    "type": "input",
+    "maxLength": "1000",
+    "items": []
+  },
+  {
+    "name": "subcategory",
+    "displayName": "Subcategory",
+    "isMandatory": "false",
+    "disabled": "false",
+    "defaultValue": "false",
+    "type": "input",
+    "maxLength": "1000",
+    "items": []
+  },
+  {
+    "name": "configurationItem",
+    "displayName": "Configuration Item",
+    "isMandatory": "false",
+    "disabled": "false",
+    "defaultValue": "false",
+    "type": "input",
+    "maxLength": "1000",
+    "items": []
+  },
+  {
+    "name": "additionalComments",
+    "displayName": "Additional Comments",
+    "isMandatory": "false",
+    "disabled": "false",
+    "defaultValue": "false",
+    "type": "input",
+    "maxLength": "1000",
+    "items": []
+  },
+  {
+    "name": "sendEventAs",
+    "displayName": "Send Event As",
+    "isMandatory": "true",
+    "defaultValue": "consolidatedEvent",
+    "type": "select",
+    "items": [
+      {
+        "label": "Consolidated Event",
+        "value": "consolidatedEvent"
+      },
+      {
+        "label": "Send Event per issue",
+        "value": "sendEventPerIssue"
+      }
+    ]
+  },
+  {
+    "name": "severitySettings",
+    "displayName": "Severity Settings",
+    "isMandatory": "false",
+    "isSensitiveField": "false",
+    "disabled": "false",
+    "defaultValue": "false",
+    "type": "checkbox",
+    "items": []
+  },
+  {
+    "name": "severity",
+    "displayName": "Severity",
+    "isMandatory": "false",
+    "defaultValue": "Critical",
+    "type": "select",
+    "items": [
+      {
+        "label": "Critical",
+        "value": "critical"
+      },
+      {
+        "label": "Major",
+        "value": "major"
+      },
+      {
+        "label": "Minor",
+        "value": "minor"
+      },
+      {
+        "label": "Warning",
+        "value": "warning"
+      },
+      {
+        "label": "Clear",
+        "value": "clear"
+      },
+      {
+        "label": "Ok",
+        "value": "ok"
+      }
+    ]
+  }
+]
